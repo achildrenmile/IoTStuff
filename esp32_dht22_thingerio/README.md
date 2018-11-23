@@ -4,3 +4,9 @@ In this project a DHT11 (temperature and humidity) sensor will be wired to an es
 ![Hardware01](https://raw.githubusercontent.com/achildrenmile/IoTStuff/master/esp32_dht22_thingerio/hw_pic_01.jpg "Picture 1")
 
 ![Hardware02](https://raw.githubusercontent.com/achildrenmile/IoTStuff/master/esp32_dht22_thingerio/hw_pic_02.jpg "Picture 2")
+
+![Thinger01](https://raw.githubusercontent.com/achildrenmile/IoTStuff/master/esp32_dht22_thingerio/thingerio_welcome.png "Picture 3")
+
+![Thinger02](https://raw.githubusercontent.com/achildrenmile/IoTStuff/master/esp32_dht22_thingerio/thingerio_dashboard.png "Picture 4")
+
+
