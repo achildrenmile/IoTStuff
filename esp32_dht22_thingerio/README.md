@@ -1,4 +1,4 @@
-# Project DHT11
+# Project DHT22
 In this project a DHT11 (temperature and humidity) sensor will be wired to an esp32 board. Arduino Studio is used to programm the microcontroller and connect it to the Thinger.io Platform. 
 
 ![Hardware01](https://raw.githubusercontent.com/achildrenmile/IoTStuff/master/esp32_dht22_thingerio/hw_pic_01.jpg "Picture 1")
