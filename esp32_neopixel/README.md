@@ -3,7 +3,7 @@ The goal is to show how you can use the Neopixel library. This can be used for a
 
 ![Hardware01](https://raw.githubusercontent.com/achildrenmile/IoTStuff/master/esp32_neopixel/led01.jpg "Picture 1")
 
-![Hardware02](https://raw.githubusercontent.com/achildrenmile/IoTStuff/master/esp32_neopixel/ledd02.jpg "Picture 2")
+![Hardware02](https://raw.githubusercontent.com/achildrenmile/IoTStuff/master/esp32_neopixel/led02.jpg "Picture 2")
 
 
 
