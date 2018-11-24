@@ -7,7 +7,7 @@ The goal is to successfully bind a RFID-RC522 module to a Wemos Lolin32 and read
 
 ![Hardware02](https://raw.githubusercontent.com/achildrenmile/IoTStuff/master/esp32_rfid_firstexample/rfid02.jpg "Picture 2")
 
-![Hardware03](https://raw.githubusercontent.com/achildrenmile/IoTStuff/master/esp32_rfid_firstexample/rfid03.jpg "Picture 3")
+![Hardware03](https://raw.githubusercontent.com/achildrenmile/IoTStuff/master/esp32_rfid_firstexample/rfid03_.jpg "Picture 3")
 
 ![Scan01](https://raw.githubusercontent.com/achildrenmile/IoTStuff/master/esp32_rfid_firstexample/rfid04.jpg "Picture 4")
 
