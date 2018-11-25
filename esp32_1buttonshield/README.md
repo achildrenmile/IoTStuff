@@ -1,6 +1,6 @@
-# Project Buzzer Shield
-The target of this project is to make some noise with the Buzzer shield. It's using the exampe from http://www.esp8266learning.com/wemos-buzzer-shield-example.php, but as tone is not working on esp32, ledc is used for that purpose.
+# Project 1 Button shield
+The target of this project is to use the 1button shield in order to switch the buildin led of the WEMOS on/off. 
 
-![Hardware01](https://raw.githubusercontent.com/achildrenmile/IoTStuff/master/esp32_buzzershield/hw01.jpg "Picture 1")
+![Hardware01](https://raw.githubusercontent.com/achildrenmile/IoTStuff/master/esp32_1buttonshield/hw01.jpg "Picture 1")
 
-![Hardware02](https://raw.githubusercontent.com/achildrenmile/IoTStuff/master/esp32_buzzershield/hw02.jpg "Picture 2")
+![Hardware02](https://raw.githubusercontent.com/achildrenmile/IoTStuff/master/esp32_1buttonshield/hw02.jpg "Picture 2")
