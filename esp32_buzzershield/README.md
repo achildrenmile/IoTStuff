@@ -1,10 +1,6 @@
-# Project DHT11
-In this project a DHT11 (temperature and humidity) sensor will be wired to an esp32 board. Arduino Studio is used to programm the microcontroller and connect it to the Thinger.io Platform. 
+# Project Buzzer Shield
+The target of this project is to make some noise with the Buzzer shield. It's using the exampe from http://www.esp8266learning.com/wemos-buzzer-shield-example.php, but as tone is not working on esp32, ledc is used for that purpose.
 
-![Hardware01](https://raw.githubusercontent.com/achildrenmile/IoTStuff/master/esp32_dht11_thingerio/hw_pic_01.jpg "Picture 1")
+![Hardware01](https://raw.githubusercontent.com/achildrenmile/IoTStuff/master/esp32_buzzershield/hw_pic_01.jpg "Picture 1")
 
-![Hardware02](https://raw.githubusercontent.com/achildrenmile/IoTStuff/master/esp32_dht11_thingerio/hw_pic_02.jpg "Picture 2")
-
-![Thinger01](https://raw.githubusercontent.com/achildrenmile/IoTStuff/master/esp32_dht22_thingerio/thingerio_welcome.png "Picture 3")
-
-![Thinger02](https://raw.githubusercontent.com/achildrenmile/IoTStuff/master/esp32_dht22_thingerio/thingerio_dashboard.png "Picture 4")
+![Hardware02](https://raw.githubusercontent.com/achildrenmile/IoTStuff/master/esp32_buzzershield/hw_pic_02.jpg "Picture 2")
