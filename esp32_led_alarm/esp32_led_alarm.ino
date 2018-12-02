@@ -2,6 +2,12 @@
 
 #define PIN   16 //21
 #define LED_NUM 7
+const byte buzzerPin = 18;
+ 
+int freq = 2000;
+int channel = 0;
+int resolution = 8;
+int dutyCycle = 128;
  
 // When we setup the NeoPixel library, we tell it how many pixels, and which pin to use to send signals.
       Adafruit_NeoPixel leds = Adafruit_NeoPixel(LED_NUM, PIN, NEO_GRB + NEO_KHZ800);
@@ -23,6 +29,9 @@ void setup() {
 
   pinMode(sensorPin, INPUT_PULLUP);
   attachInterrupt(digitalPinToInterrupt(sensorPin), handleInterrupt, CHANGE);
+
+  ledcSetup(channel, freq, resolution);
+  ledcAttachPin(buzzerPin, channel);
 }
 
 void turnledsgreen() 
@@ -49,10 +58,13 @@ void loop() {
     if(digitalRead(sensorPin)){
       Serial.println("Motion detected");
        turnledsred();
+       ledcWrite(channel, dutyCycle);
     }else{
  
       Serial.println("Motion stoped");
       turnledsgreen();
+      ledcWrite(channel, 0);
+ 
     }
  
 }
