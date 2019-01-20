@@ -3,8 +3,7 @@
 const int stepsPerRevolution = 2050; // change this to fit the number of steps per revolution
  
 // initialize the stepper library on pins 15,2,0,4
-Stepper myStepper(stepsPerRevolution, 16,21,19,18); //io16,io17,io21,io22
-//Stepper myStepper(stepsPerRevolution, 16,17,21,22);
+Stepper myStepper(stepsPerRevolution, 16,21,17,22); 
 
 int stepCount = 0; // number of steps the motor has taken
  
